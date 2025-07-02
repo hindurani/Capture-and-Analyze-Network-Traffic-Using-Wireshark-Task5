@@ -69,7 +69,7 @@ Protocols Identified
 ## HTTP:
 Purpose: Facilitates web browsing by sending requests (e.g., GET) to web servers.
 Example Packet:
-Source IP: 192.168.1.100 (local machine)
+Source IP: 192.168.1.55 (local machine)
 Destination IP: 93.184.216.34 (example.com)
 Details: GET request for /index.html, response code 200 OK.
 Observation: Most HTTP traffic was to example.com, indicating successful web page loading.
