@@ -77,16 +77,16 @@ Observation: Most HTTP traffic was to example.com, indicating successful web pag
 ## DNS:
 Purpose: Resolves domain names to IP addresses for network communication.
 Example Packet:
-Source IP: 192.168.1.100 (local machine)
+Source IP: 192.168.1.55 (local machine)
 Destination IP: 8.8.8.8 (Google DNS server)
-Details: Query for google.com, response with IP 142.250.190.14.
+Details: Query for google.com, response with IP 172.217.174.238.
 Observation: DNS queries were frequent due to multiple domain resolutions during browsing.
 
 ## ICMP:
 Purpose: Used for diagnostic tools like ping to check network connectivity.
 Example Packet:
-Source IP: 192.168.1.49 (local machine)
-Destination IP: 142.250.190.14 (google.com)
+Source IP: 192.168.1.55 (local machine)
+Destination IP: 172.217.174.238 (google.com)
 Details: Echo request and echo reply packets for ping.
 Observation: ICMP traffic confirmed successful ping responses with low latency.
 
