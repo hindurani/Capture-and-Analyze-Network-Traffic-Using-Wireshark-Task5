@@ -70,7 +70,7 @@ Protocols Identified
 Purpose: Facilitates web browsing by sending requests (e.g., GET) to web servers.
 Example Packet:
 Source IP: 192.168.1.55 (local machine)
-Destination IP: 93.184.216.34 (example.com)
+Destination IP: 142.250.190.110 (example.com)
 Details: GET request for /index.html, response code 200 OK.
 Observation: Most HTTP traffic was to example.com, indicating successful web page loading.
 
@@ -78,15 +78,15 @@ Observation: Most HTTP traffic was to example.com, indicating successful web pag
 Purpose: Resolves domain names to IP addresses for network communication.
 Example Packet:
 Source IP: 192.168.1.55 (local machine)
-Destination Address: 110.235.231.73 (Google DNS server)
+Destination Address: 142.250.190.110 (Google DNS server)
 Details: Query for google.com, response with IP 172.217.174.238.
 Observation: DNS queries were frequent due to multiple domain resolutions during browsing.
 
 ## ICMP:
 Purpose: Used for diagnostic tools like ping to check network connectivity.
 Example Packet:
-Source IP: 192.168.1.1 (local machine)
-Destination IP: 172.217.174.238 (google.com)
+Source IP: 192.168.1.55 (local machine)
+Destination IP: 142.250.190.110 (google.com)
 Details: Echo request and echo reply packets for ping.
 Observation: ICMP traffic confirmed successful ping responses with low latency.
 
