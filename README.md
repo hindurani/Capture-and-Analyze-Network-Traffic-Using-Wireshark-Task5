@@ -78,8 +78,8 @@ Observation: Most HTTP traffic was to example.com, indicating successful web pag
 Purpose: Resolves domain names to IP addresses for network communication.
 Example Packet:
 Source IP: 192.168.1.55 (local machine)
-Destination Address: 142.250.190.110 (Google DNS server)
-Details: Query for google.com, response with IP 172.217.174.238.
+Destination Address: 144.48.72.82(Google DNS server)
+Details: Query for google.com, response with IP  142.250.190.110.
 Observation: DNS queries were frequent due to multiple domain resolutions during browsing.
 
 ## ICMP:
