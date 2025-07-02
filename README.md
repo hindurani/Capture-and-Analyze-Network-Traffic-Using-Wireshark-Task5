@@ -70,7 +70,7 @@ Protocols Identified
 Purpose: Facilitates web browsing by sending requests (e.g., GET) to web servers.
 Example Packet:
 Source IP: 192.168.1.55 (local machine)
-Destination IP: 142.250.190.110 (example.com)
+Destination IP: 144.48.73.97 (example.com)
 Details: GET request for /index.html, response code 200 OK.
 Observation: Most HTTP traffic was to example.com, indicating successful web page loading.
 
