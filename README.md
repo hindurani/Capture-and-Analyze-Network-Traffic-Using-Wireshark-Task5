@@ -49,7 +49,7 @@ Identified the following protocols in the captured traffic:
 HTTP: Used for web browsing (e.g., GET requests to example.com).
 DNS: Used for resolving domain names to IP addresses (e.g., queries for google.com).
 ICMP: Used for ping requests and responses (e.g., to google.com).
-Additional protocols observed (if any): [e.g., TCP for connection establishment, UDP for lightweight data transfer].
+Additional protocols observed (if any): [e.g., TCP for connection establishment, UDP for lightweight data transfer,Simple Service Discovery Protocol (SSDP) is used for discovering and advertising network services and devices ,Internet Group Management Protocol version 3 (IGMPv3) is a network protocol used for managing IP multicast group memberships in IPv4 networks].
 
 ## Exported Packet Capture:
 Saved the capture as task5_capture.pcap via File > Save As in Wireshark.
@@ -78,7 +78,7 @@ Observation: Most HTTP traffic was to example.com, indicating successful web pag
 Purpose: Resolves domain names to IP addresses for network communication.
 Example Packet:
 Source IP: 192.168.1.55 (local machine)
-Destination IP: 8.8.8.8 (Google DNS server)
+Destination Address: 110.235.231.73 (Google DNS server)
 Details: Query for google.com, response with IP 172.217.174.238.
 Observation: DNS queries were frequent due to multiple domain resolutions during browsing.
 
