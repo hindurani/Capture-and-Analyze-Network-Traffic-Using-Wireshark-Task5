@@ -85,7 +85,7 @@ Observation: DNS queries were frequent due to multiple domain resolutions during
 ## ICMP:
 Purpose: Used for diagnostic tools like ping to check network connectivity.
 Example Packet:
-Source IP: 192.168.1.55 (local machine)
+Source IP: 192.168.1.1 (local machine)
 Destination IP: 172.217.174.238 (google.com)
 Details: Echo request and echo reply packets for ping.
 Observation: ICMP traffic confirmed successful ping responses with low latency.
